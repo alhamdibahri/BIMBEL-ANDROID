@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/cyan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ww"
+            app:hintEnabled="false"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/cariguru"
+                android:imeOptions="actionDone"
+                android:paddingLeft="5dp"
+                android:drawableLeft="@drawable/search"
+                android:hint="Cari Guru"
+                android:textColorHint="#618A8F"
+                android:background="@drawable/edit_text_cari"
+                android:layout_width="match_parent"
+                android:textCursorDrawable="@null"
+                android:maxLines="1"
+                android:lines="1"
+                android:textColor="#618A8F"
+                android:singleLine="true"
+                android:layout_height="35dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnfilter"
+            android:layout_toRightOf="@id/ww"
+            android:background="@android:color/transparent"
+            android:textSize="7dp"
+            android:text="Filter"
+            android:drawableTop="@drawable/ic_filter"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

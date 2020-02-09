@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_margin="10dp"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:outlineSpotShadowColor="@color/hitam">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageSiswa"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/textNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageSiswa"
+            android:padding="5dp"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/txtAlamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNama"
+            android:layout_toRightOf="@+id/imageSiswa"
+            android:padding="5dp"
+            android:text="-"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtAgama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAlamat"
+            android:layout_toRightOf="@+id/imageSiswa"
+            android:padding="5dp"
+            android:text="-"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnDetailSiswa"
+            android:text="Detail"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_radius"
+            android:layout_marginLeft="190dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/imageSiswa"
+            android:layout_below="@+id/txtAgama"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

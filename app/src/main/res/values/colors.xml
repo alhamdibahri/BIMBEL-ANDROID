@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorRed">#FFB1A6</color>
+    <color name="hitam">#000000</color>
+    <color name="spinner">#D3CFCF</color>
+    <color name="WhiteSmoke">#f5f5f5</color>
+    <color name="hijau">#159588</color>
+    <color name="menu">#181C34</color>
+    <color name="cyan1">#0792A8</color>
+</resources>

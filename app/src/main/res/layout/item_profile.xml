@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/tmp_prof_judul"
+            android:textSize="17dp"
+            android:text="Nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginRight="5dp"
+            android:textAlignment="textEnd"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:id="@+id/tmp_prof_hasil"
+            android:textSize="17dp"
+            android:text="Alhamdi Ferdiawan Bahri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginTop="1dp"
+            android:id="@+id/tmp_icon_prof"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

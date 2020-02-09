@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtidHistoryGuru"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imageHistoryGuru"
+        android:layout_marginLeft="20dp"
+        android:text="Tony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtHistoryKodeGuru"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imageHistoryGuru"
+        android:layout_marginLeft="20dp"
+        android:text="Tony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageHistoryGuru"
+        android:src="@drawable/placeholder"
+        android:layout_width="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/txtHistoryNamaGuru"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imageHistoryGuru"
+        android:layout_marginLeft="20dp"
+        android:text="Tony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtHistoryKelasGuru"
+        android:layout_below="@+id/txtHistoryNamaGuru"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageHistoryGuru"
+        android:layout_marginLeft="20dp"
+        android:text="SMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtHistoryMataPelajaran"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtHistoryKelasGuru"
+        android:layout_toRightOf="@+id/imageHistoryGuru"
+        android:layout_marginLeft="20dp"
+        android:text="Bahasa Inggris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtTanggalHistorySiswa"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtHistoryMataPelajaran"
+        android:layout_toRightOf="@+id/imageHistoryGuru"
+        android:layout_marginLeft="20dp"
+        android:text="17, Agustus 2019"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtstatushistorysiswa"
+        android:text="Berlangsung"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:textSize="10dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:background="@drawable/button_radius"
+        android:layout_toRightOf="@+id/imageHistoryGuru"
+        android:layout_below="@+id/txtTanggalHistorySiswa"
+        android:layout_width="50dp"
+        android:layout_height="20dp"/>
+
+</RelativeLayout>

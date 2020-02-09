@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MateriGuru">
+    <TextView
+        android:id="@+id/w"
+        android:paddingLeft="10dp"
+        android:textSize="16dp"
+        android:visibility="gone"
+        android:text="Nama Siswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:paddingLeft="10dp"
+        android:textSize="16dp"
+        android:text="Nama Siswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/materialUsernameSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorTextAppearance="@style/error_appearance"
+        app:errorEnabled="true"
+        app:hintEnabled="false"
+        android:layout_marginTop="5dp">
+        <EditText
+            android:id="@+id/namasiswa"
+            android:textSize="16dp"
+            android:drawablePadding="5dp"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_radius"
+            android:hint="Nama Siswa"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true"
+            android:textCursorDrawable="@null"
+            android:cursorVisible="true"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:paddingLeft="10dp"
+        android:textSize="16dp"
+        android:text="Nama Materi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/materialPasswordSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorTextAppearance="@style/error_appearance"
+        app:errorEnabled="true"
+        app:hintEnabled="false"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="5dp">
+        <EditText
+            android:id="@+id/namamateri"
+            android:textSize="16dp"
+            android:drawablePadding="5dp"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_radius"
+            android:hint="Nama Materi"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true"
+            android:textCursorDrawable="@null"
+            android:cursorVisible="true"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:paddingLeft="10dp"
+        android:textSize="16dp"
+        android:text="Upload Materi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/upload_materi"
+            android:text="Choose File..."
+            android:textSize="16dp"
+            android:drawablePadding="5dp"
+            android:hint="Nama Materi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true"
+            android:textCursorDrawable="@null"
+            android:cursorVisible="true"/>
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_login"
+        android:cursorVisible="true"
+        android:text="Upload Materi"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@null"
+        android:textSize="20dp" />
+</LinearLayout>

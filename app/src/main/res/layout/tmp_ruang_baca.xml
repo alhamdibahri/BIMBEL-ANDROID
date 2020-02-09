@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageBaca"
+        android:src="@drawable/placeholder"
+        android:layout_width="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_toRightOf="@+id/imageBaca"
+        android:layout_marginLeft="20dp"
+        android:text="asdasd"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtJudulBaca"
+        android:layout_below="@id/txtid"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imageBaca"
+        android:layout_marginLeft="20dp"
+        android:text="asdasd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:id="@+id/txtTanggalBaca"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/txtJudulBaca"
+        android:layout_toRightOf="@+id/imageBaca"
+        android:layout_marginLeft="20dp"
+        android:text="asdasd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
